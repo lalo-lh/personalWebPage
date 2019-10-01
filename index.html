@@ -1,0 +1,271 @@
+<?php include('process.php'); ?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Eduardo Mtnez</title>
+	<!--<link rel="icon" type="image/x-icon" href="imgs/icono.png">-->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Merriweather+Sans:400,800' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+</head>
+<body>
+<container id="contenido">
+	<header>
+		
+		<div class="presentation">
+			<h1>Mi nombre es</h1>
+			<div class="nombrePres">
+				<p id="nombre">Eduardo Martínez</p>
+			</div>
+			
+			<h1>y soy</h1>
+			<hr color="#fff" width="350">
+			<h1>Web Developer</h1>
+			<hr color="#fff" width="350">
+		</div>
+		<nav class="navbar navbar-default" id="navbb">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      
+		    </div>
+
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		     	<ul class="nav navbar-nav">
+			        <li><a href="#">HOME</a></li>
+					<li><a href="#aboutme">ACERCA DE MÍ</a></li>
+					<li><a href="#habilidades">HABILIDADES</a></li>
+					<li><a href="#curriculum">CURRICULUM</a></li>
+					<li><a href="#portafolio">PORTAFOLIO</a></li>
+					<li><a href="#social">CONTÁCTAME</a></li>
+				</ul>
+		    </div> 
+		  </div>
+		</nav>
+	</header>
+	
+		<section class="aboutme" id="aboutme">
+			<article class="hgoals">
+				<div class="goals col-xs-4">
+					<h2>Valores</h2>
+						<p>Me considero una persona analítica, positivo, responsable, respetuoso, solidario y autodidacta.</p>
+				</div>
+				<div class="goals col-xs-4">
+					<h2>Metas</h2>
+						<p>Me visualizo como web developer, Compartiendo y apoyando con mi conocimiento y experiencia.</p>
+				</div>
+				<div class="goals col-xs-4">
+					<h2>Hobbies</h2>
+						<p>Mis hobbies son navegar por internet, aprender a usar software de diseño o desarrollo, videojuegos y practicar disciplinas deportivas.</p>
+				</div>
+			</article>
+			<article class="acercademi">
+				<div class="imgabout">
+					<img class="img-responsive" src="imgs/imgabout.png">
+				</div>
+				<div class="infoAbout">
+					<div class="marcoabout">
+					<h2>Acerca de mí</h2>
+					<p>En mi infancia mi hobbie era dibujar y armar rompecabezas. Llegado el momento me tope con la desición de como poder concentrar estas pasiones, encontre la mezcla perfecta en el desarrollo web. </p>
+					<p>Para mi el desarrollo web es crear arte.</p>
+					<p>De lo abstracto a lo maravilloso.</p>
+					
+					<div class="features">
+							<div class="col-sm-4" id="f_img">
+								<img src="imgs/design03.png" alt="desarrollo">
+							
+								<h3>Desarrollo Web</h3>
+								<p>Conocimiento en diversas lenguajes de etiquetado y programacion web, asi como uso de herramientas de desarrollo. </p> 
+							</div>
+							<div class="col-sm-4" id="f_img">
+								<img src="imgs/design04.png" alt="Responsive">
+								<h3>Diseño Responsivo</h3>
+								<p>Es indispensable que nuestras paginas web sean adaptables a diferentes dispositivos.</p>
+							</div>
+							<div class="col-sm-4" id="f_img">
+								<img src="imgs/design.png" alt="design">
+								<h3>Diseño Gráfico</h3>
+								<p>Uso de paqueterias de edicion grafica: imagenes, vectores y animaciones.</p>
+							</div>
+							<!--
+							<td>
+								<img src="imgs/design.png" alt="seo">
+							</td>
+							<td>
+								<h3>SEO</h3>
+								<p>Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam.</p>
+							</td>
+							-->
+					</div>
+
+				</div>
+				</div>
+			</article>
+		</section>
+		<section class='habilidades' id="habilidades">
+			<div class="skills">
+				<h2>Mis Habilidades</h2>
+				<p>A lo largo de mi carrera eh aprendido los lenguajes mas utilizados para el desarrollo de paginas web.</p>
+				<p>Asi como el uso de librerias para estilos y plugins.</p>
+				<button type="button" class="btn btn-primary" onclick="window.location.href = '#contact';" >Contactame</button>
+			</div>
+			<div class="graphics">
+				<div class="htgrap">
+					<h4>HTML/CSS</h4>
+					<div class="grapcontent"><p>80%</p>
+					<div class="prueba1 hiddengraph"></div>
+					</div>
+				</div>
+				<div class="htgrap">
+					<h4>MULTIMEDIA</h4>
+					<div class="grapcontent"><p id="adob">90%</p>
+					<div class="prueba2 hiddengraph"></div>
+					</div>
+				</div>
+				<div class="htgrap">
+					<h4>JAVASCRIPT/JQUERY</h4>
+					<div class="grapcontent"><p id="jq">80%</p>
+					<div class="prueba3 hiddengraph"></div>
+					</div>
+				</div>
+				<div class="htgrap">
+					<h4>PHP/MYSQL</h4>
+					<div class="grapcontent"><p id="phpsq">70%</p>
+					<div class="prueba4 hiddengraph"></div>
+					</div>
+				</div>
+				<div class="htgrap">
+					<h4>PYTHON</h4>
+					<div class="grapcontent"><p id="pyth">60%</p>
+					<div class="prueba5 hiddengraph"></div>
+					</div>
+				</div>
+				<div class="htgrap">
+					<h4>NODEJS</h4>
+					<div class="grapcontent"><p id="nodej">60%</p>
+					<div class="prueba6 hiddengraph"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="curriculum" id="curriculum">
+			<article class="startCurriculum">
+				<h2>Curriculum</h2>
+				<p>Curriculum Vitae, documento solo para empresas y reclutadores.
+				</p>
+				<p>Para poder tener acceso a el CV es necesario mandar tu informacion en el apartado de Contáctame. </p>
+				<button type="button" class="btn btn-primary" onclick="downloadcv()">Descargar</button>
+			</article>
+		</section>
+		<div class="triangle"></div>
+		<section class="porfolio" id="portafolio">
+			<article class="portafolio">
+				<h2>Portafolio</h2>
+				<p>Comparto con ustedes una serie de proyectos en los cuales he colaborado o he sido el único participe, algunos son parte de mi trabajo, durante mi aprendizaje o proyectos personales.</p>
+			</article>
+				<div class="contentPort">
+					<div class="col-xs-4 contentPort01"><img  class="img-responsive" src="imgs/portafolio02.jpg" alt="">
+					<div class="infoportafolio"><p>Android Studio</p><p>Desarrollo de aplicación movil con la funcion de reportar los datos almacenados en el servidor del sistema SIACGUB mediante conexión SQL server.  2019</p></div>
+					</div>
+					<div class="col-xs-4 contentPort01"><img  class="img-responsive" src="imgs/portafolio03.jpg" alt="">
+					<div class="infoportafolio"><p>NodeJS course</p><p>Pagina Web desarrollada como proyecto principal del curso 'The Web Developer Bootcamp' de la plataforma Udemy. Se  trata de un Blog el cual puede ingresar varios usuarios y compartir sus post, con las devidas reestricciones de edicion. 2019</p></div>
+					</div>
+					<div class="col-xs-4 contentPort01"><img  class="img-responsive" src="imgs/portafolio04.jpg" alt="">
+					<div class="infoportafolio"><p>Unity</p><p>Videojuego Desarrollado entre otros para correr en la plataforma de android, proyecto de curso en la plataforma de youtube. 2017</p></div>
+					</div>
+					<!--
+					<div class="col-xs-4 contentPort01"><img  class="img-responsive" src="imgs/portafolio01.jpg" alt=""><div class="infoportafolio"><p>Hola mundo</p></div></div>
+					<div class="col-xs-4 contentPort01"><img  class="img-responsive" src="imgs/portafolio01.jpg" alt=""><div class="infoportafolio"><p>Hola mundo</p></div></div>
+					<div class="col-xs-4 contentPort01"><img  class="img-responsive" src="imgs/portafolio01.jpg" alt=""><div class="infoportafolio"><p>Hola mundo</p></div></div>
+					<div class="col-xs-4 contentPort01"><img  class="img-responsive" src="imgs/portafolio01.jpg" alt=""><div class="infoportafolio"><p>Hola mundo</p></div></div>
+					<div class="col-xs-4 contentPort01"><img  class="img-responsive" src="imgs/portafolio01.jpg" alt=""><div class="infoportafolio"><p>Hola mundo</p></div></div>
+					<div class="col-xs-4 contentPort01"><img  class="img-responsive" src="imgs/portafolio01.jpg" alt=""><div class="infoportafolio"><p>Hola mundo</p></div></div>
+				-->
+				</div>
+			
+		</section>
+		<div id="social"></div>
+		<article class="social">
+				<a href="https://www.facebook.com/juanedml">
+					<div class="facebook linksocial">
+						<img src="imgs/fff.png">
+						<div class="hosocial">
+						</div>
+					</div>
+				</a>
+				<a href="https://twitter.com/lalo_lh">
+					<div class="twitter linksocial">
+						<img src="imgs/twt.png">
+						<div class="hosocial">
+							
+						</div>
+					</div>
+				</a>
+				<a href="https://mx.linkedin.com/in/juanedml">
+					<div class="linkedin linksocial">
+						<img src="imgs/in.png">
+						<div class="hosocial">
+						</div>
+					</div>
+				</a>
+				<a href="http://www.github.com/lalo-lh">
+					<div class="github linksocial">
+						<img src="imgs/github.png">
+						<div class="hosocial">
+						</div>
+					</div>
+				</a>
+		</article>
+		<section class="contact">
+			
+			<article id="contact">
+				<div class="descContact">
+					<h2>Contáctame</h2>
+					<p>Cualquier inquietud favor de llenar el formulario, me pondre en contacto a la brevedad posible.</p>
+					<p>Tepic, Nay.<br>Mexico</p>
+					<h3>E-mail</h3>
+					<p>eduardo***@email.com</p>
+				</div>
+				<form class="form" method="post" >
+					<fieldset>
+						<div class="form-group">
+							<label>Nombre</label>
+							<input type="text" name="name" class="form-control" placeholder="Nombre">
+						</div>
+						<div class="form-group">
+							<label>E-mail</label>
+							<input type="email" name="_replyto" class="form-control" placeholder="email@domain.com" >
+						</div>
+
+						<input type="hidden" name="_subject" class="form-control" placeholder="Contacto de Website" >
+						<div class="form-group">
+							<label>Mensaje</label>
+							<textarea row="5" name="message" class="form-control" ></textarea>
+						</div>
+							<button type="submit" class="btn btn-primary submit" value="Send">Enviar</button>
+					</fieldset>
+				</form>
+			</article>
+		</section>
+	
+	<footer>
+		<h3>Gracias por visitar mi portafolio.</h3>
+		<p>Hecho por Eduardo - 2015</p>
+	</footer>
+</container>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/bootstrap.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="js/style.js" type="text/javascript"></script>
+	<script src="js/jsemail.js" type="text/javascript"></script>
+</body>
+</html>
